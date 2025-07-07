@@ -4,6 +4,7 @@
 
 This repository contains various Arduino-based programs for controlling automated systems. The project includes implementations for motor control, ultrasonic sensors, photorésistance, and servo mechanisms.
 
+```
 Control_Automated_Systems_Project/
 │
 ├── Project.ino                  # Main program for the automated system
@@ -20,7 +21,7 @@ Control_Automated_Systems_Project/
 │
 └── test_verin/                 # Test program for servo actuator (electric cylinder)
     └── test_verin.ino
-
+```
 ## Description of Files
 
 ### `Project.ino`
