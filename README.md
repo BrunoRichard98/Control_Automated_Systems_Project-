@@ -24,23 +24,23 @@ Control_Automated_Systems_Project/
 ```
 ## Description of Files
 
-## `Project.ino`
+#### `Project.ino`
 The main program for controlling the automated system. It integrates various components such as:
 - Servo motor (`LeVerin`) for controlling a linear actuator.
 - Ultrasonic sensor for distance measurement.
 - Motor control with limit switches for chariot movement.
 - Photorésistance for detecting light intensity.
 
-## `test_motor_fin_de_cours/test_motor_fin_de_cours.ino`
+#### `test_motor_fin_de_cours/test_motor_fin_de_cours.ino`
 A test program for controlling the motor and handling limit switches (`FCM` and `FCA`). It ensures the chariot moves forward or backward based on the state of the switches.
 
-## `test_resistance/test_resistance.ino`
+#### `test_resistance/test_resistance.ino`
 A test program for reading values from a photorésistance sensor connected to pin `A0`. It outputs the analog value to the serial monitor.
 
-## `test_ultrason/test_ultrason.ino`
+#### `test_ultrason/test_ultrason.ino`
 A test program for measuring distances using an ultrasonic sensor. It calculates the distance based on the time taken for the echo signal to return.
 
-## `test_verin/test_verin.ino`
+#### `test_verin/test_verin.ino`
 A test program for controlling a servo motor (`LeVerin`) connected to pin `9`. It alternates the servo position between two predefined angles.
 
 ## How to Use
